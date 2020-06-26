@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 
 //Desenvolvido por Caio Marinho Coelho
-public class Teste02 {
+public class incidencia {
 
 	public static void main(String[] args) throws IOException {
 
