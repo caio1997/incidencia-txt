@@ -53,7 +53,6 @@ public class incidencia {
 					list.add((String) str.nextElement());
 
 				}
-
 				// Laço que irá percorrer a lista da primeira a 50 posição
 				for (int x = 0; x <= 49; x++) {
 
@@ -73,6 +72,7 @@ public class incidencia {
 					} else {
 						map.put(test, cont);
 					}
+
 				}
 
 				// Zerando o ArrayList para ser utilizado nas próxima linha do arquivo .txt
@@ -115,12 +115,12 @@ public class incidencia {
 					break;
 				}
 			}
-			
-		//Tratamento de exceções geradas por "erro" na abertura do arquivo .txt
+
+			// Tratamento de exceção para abertura do arquivo .txt
 		} catch (FileNotFoundException e) {
-			System.out.println("Arquivo não existente!");
-		} catch(IOException e ) {
-			System.out.println("Arquivo não existente!");
+			System.out.println("Arquivo inexistente!");
+		} catch (IOException e) {
+			System.out.println("Arquivo inexistente!");
 		}
 	}
 }
